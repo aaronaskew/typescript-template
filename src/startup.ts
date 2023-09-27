@@ -4,32 +4,32 @@ import { NS } from "@ns";
 export async function main(ns: NS) {
     // Array of all servers that don't need any ports opened
     // [server, nuke_ports_needed, ram (in GB)]
+
+    const payload: String = String(ns.args[0]);
+    
+    const payload_mem = ns.mem
+
     const servers = [
-        ["n00dles", 0, 4],
-        ["foodnstuff", 0, 16],
-        ["sigma-cosmetics", 0, 16],
-        ["zer0", 1, 32],
-        ["neo-net", 1, 32],
-        ["silver-helix", 2, 64],
-        ["phanstasy", 2, 32],
-        ["omega-net", 2, 32],
-        ["joesguns", 0, 16],
-        ["hong-fang-tea", 0, 16],
-        ["nectar-net", 0, 16],
-        ["harakiri-sushi", 0, 16],
-        ["CSEC", 1, 8],
-        ["iron-gym", 1, 32],
-        ["max-hardware", 1, 32]
+        { host: "n00dles", nuke_ports: 0, ram: 4 },
+        { host: "foodnstuff", nuke_ports: 0, ram: 16 },
+        { host: "sigma-cosmetics", nuke_ports: 0, ram: 16 },
+        { host: "zer0", nuke_ports: 1, ram: 32 },
+        { host: "neo-net", nuke_ports: 1, ram: 32 },
+        { host: "silver-helix", nuke_ports: 2, ram: 64 },
+        { host: "phanstasy", nuke_ports: 2, ram: 32 },
+        { host: "omega-net", nuke_ports: 2, ram: 32 },
+        { host: "joesguns", nuke_ports: 0, ram: 16 },
+        { host: "hong-fang-tea", nuke_ports: 0, ram: 16 },
+        { host: "nectar-net", nuke_ports: 0, ram: 16 },
+        { host: "harakiri-sushi", nuke_ports: 0, ram: 16 },
+        { host: "CSEC", nuke_ports: 1, ram: 8 },
+        { host: "iron-gym", nuke_ports: 1, ram: 32 },
+        { host: "max-hardware", nuke_ports: 1, ram: 32 },
     ];
 
-    // // Array of all servers that only need 1 port opened
-    // // to gain root access. These have 32 GB of RAM
-    // const servers1Port = [
-    //     "neo-net",
-    //     "zer0",
-    //     "max-hardware",
-    //     "iron-gym"
-    // ];
+    for (var server in servers) {
+
+    }
 
     // Copy our scripts onto each server that requires 0 ports
     // to gain root access. Then use nuke() to gain admin access and
