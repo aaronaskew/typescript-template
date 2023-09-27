@@ -2,9 +2,17 @@
 import {NS} from "@ns";
 
 export async function main(ns: NS) {
-    // Defines the "target server", which is the server
-    // that we're going to hack. In this case, it's "n00dles"
-    const target = "joesguns";
+    const flags = ns.flags([
+        ['target', String(null)]
+    ])
+
+    const target = String(flags.target);
+
+    //TODO ****removing this for now to conserve ram
+    // if (!ns.serverExists(target)) {
+    //     ns.tprint(`target server: ${target} doesn't exist!`);
+    //     ns.exit();
+    // }
 
     // Defines how much money a server should have before we hack it
     // In this case, it is set to the maximum amount of money.

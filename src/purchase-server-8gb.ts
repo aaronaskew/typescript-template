@@ -1,6 +1,20 @@
 import { NS } from "@ns";
 
 export async function main(ns: NS) {
+
+    const flags = ns.flags([
+        ["help",false],
+        ["payload",""],
+        ["payload_args", []],
+        ["ram",8],
+    ])
+
+    if(flags.help) {
+        //print help msg and exit
+        ns.tprint("help msg");
+        ns.exit();
+    }
+
     // How much RAM each purchased server will have. In this case, it'll
     // be 8GB.
     const ram = 8;
