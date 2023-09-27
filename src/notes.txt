@@ -1,0 +1,64 @@
+┗ home
+  ┃   Root Access: YES, Required hacking skill: 1
+  ┃   Number of open ports required to NUKE: 5
+  ┃   RAM: 1.02TB
+  ┣ n00dles
+  ┃     Root Access: NO, Required hacking skill: 1
+  ┃     Number of open ports required to NUKE: 0
+  ┃     RAM: 4.00GB
+  ┣ foodnstuff
+  ┃     Root Access: NO, Required hacking skill: 1
+  ┃     Number of open ports required to NUKE: 0
+  ┃     RAM: 16.00GB
+  ┣ sigma-cosmetics
+  ┃ ┃   Root Access: NO, Required hacking skill: 5
+  ┃ ┃   Number of open ports required to NUKE: 0
+  ┃ ┃   RAM: 16.00GB
+  ┃ ┗ zer0
+  ┃   ┃   Root Access: NO, Required hacking skill: 75
+  ┃   ┃   Number of open ports required to NUKE: 1
+  ┃   ┃   RAM: 32.00GB
+  ┃   ┣ neo-net
+  ┃   ┃     Root Access: NO, Required hacking skill: 50
+  ┃   ┃     Number of open ports required to NUKE: 1
+  ┃   ┃     RAM: 32.00GB
+  ┃   ┣ silver-helix
+  ┃   ┃     Root Access: NO, Required hacking skill: 150
+  ┃   ┃     Number of open ports required to NUKE: 2
+  ┃   ┃     RAM: 64.00GB
+  ┃   ┣ phantasy
+  ┃   ┃     Root Access: NO, Required hacking skill: 100
+  ┃   ┃     Number of open ports required to NUKE: 2
+  ┃   ┃     RAM: 32.00GB
+  ┃   ┗ omega-net
+  ┃         Root Access: NO, Required hacking skill: 213
+  ┃         Number of open ports required to NUKE: 2
+  ┃         RAM: 32.00GB
+  ┣ joesguns
+  ┃     Root Access: NO, Required hacking skill: 10
+  ┃     Number of open ports required to NUKE: 0
+  ┃     RAM: 16.00GB
+  ┣ hong-fang-tea
+  ┃ ┃   Root Access: NO, Required hacking skill: 30
+  ┃ ┃   Number of open ports required to NUKE: 0
+  ┃ ┃   RAM: 16.00GB
+  ┃ ┗ nectar-net
+  ┃       Root Access: NO, Required hacking skill: 20
+  ┃       Number of open ports required to NUKE: 0
+  ┃       RAM: 16.00GB
+  ┣ harakiri-sushi
+  ┃ ┃   Root Access: NO, Required hacking skill: 40
+  ┃ ┃   Number of open ports required to NUKE: 0
+  ┃ ┃   RAM: 16.00GB
+  ┃ ┗ CSEC
+  ┃       Root Access: NO, Required hacking skill: 51
+  ┃       Number of open ports required to NUKE: 1
+  ┃       RAM: 8.00GB
+  ┗ iron-gym
+    ┃   Root Access: NO, Required hacking skill: 100
+    ┃   Number of open ports required to NUKE: 1
+    ┃   RAM: 32.00GB
+    ┗ max-hardware
+          Root Access: NO, Required hacking skill: 80
+          Number of open ports required to NUKE: 1
+          RAM: 32.00GB
